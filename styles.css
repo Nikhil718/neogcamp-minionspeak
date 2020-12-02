@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 800px;
+    margin: auto;
+}
+
+.head{
+    background-color:  rgb(255, 255, 134);
+    text-align: center;
+    margin-top: 10px;
+}
+textarea{
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 25%;
+    height: 100px;
+    display: block;
+    padding: 1rem;
+}
+
+#btn-translate{
+    padding: 0.3rem;
+    margin-top: 20px;
+    margin-left: 25%;
+    border-radius:0.5rem;
+    background-color: rgb(255, 255, 134);
+}
+.trans-headding{
+    margin-top: 20px;
+    margin-left: 25%;
+}
+
+#output-area{
+    border: black solid;
+    width: 300px;
+    height:10vh;
+    margin-top: 20px;
+    margin-left: 25%;
+    display: block;
+}
