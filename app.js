@@ -5,7 +5,7 @@ var outputDiv = document.querySelector("#output-area");
 var serverURL =  "https://api.funtranslations.com/translate/minion.json"
 
 function getRequiredURL(input){
-    return serverURL + "?" + "text=" + input;
+return serverURL + "?" + "text=" + input;
 }
 function errorHandler(error) {
     alert("something wrong with server! try again after some time")
