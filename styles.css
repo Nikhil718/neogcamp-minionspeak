@@ -1,10 +1,18 @@
 
 body{
-    margin: 0;
+  
     margin: auto;
+    background-image:url("https://wallpaperaccess.com/full/305936.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   
 }
+
 .container{
     padding: 0rem 1rem;
+   
 }
 .container-center{
     max-width: 600px;
@@ -16,6 +24,10 @@ body{
     background-color:  rgb(255, 255, 134);
     text-align: center;
     margin-top: 10px;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 textarea{
     width: 80%;
@@ -45,3 +57,4 @@ textarea{
     margin: 1rem;
     display: block;
 }
+

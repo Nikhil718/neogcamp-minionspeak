@@ -12,7 +12,6 @@ function errorHandler(error) {
 }
 function clickhandler() {
     var inputValue = textInput.value;
-   console.log(inputValue);
     fetch(getRequiredURL(inputValue))
     .then((response) => response.json())
     .then((json) => {
